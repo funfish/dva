@@ -117,7 +117,7 @@ function createModel(options) {
   const { namespace, param } = options;
   return {
     namespace: `demo${namespace}`,
-    states: {},
+    state: {},
     reducers: {},
     effects: {
       *foo() {
